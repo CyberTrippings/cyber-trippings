@@ -9,7 +9,8 @@
 </head>
 <body>
     <div class="container" id="signup" style="display:none;">
-      <h1 class="form-title">Register</h1>
+      <h1 class="form-title">Register for Fuelpump</h1>
+      <p class="social-note">Or sign up with Google to access Fuelpump faster.</p>
       <form method="post" action="register.php">
         <div class="input-group">
            <i class="fas fa-user"></i>
@@ -37,8 +38,7 @@
         ----------or--------
       </p>
       <div class="icons">
-        <i class="fab fa-google"></i>
-        <i class="fab fa-facebook"></i>
+        <a class="social-btn google" href="google_login.php" title="Sign up with Google"><i class="fab fa-google"></i></a>
       </div>
       <div class="links">
         <p>Already Have Account ?</p>
@@ -47,7 +47,8 @@
     </div>
 
     <div class="container" id="signIn">
-        <h1 class="form-title">Sign In</h1>
+        <h1 class="form-title">Sign In to Fuelpump</h1>
+        <p class="social-note">Use Google to sign in instantly.</p>
         <form method="post" action="register.php">
           <div class="input-group">
               <i class="fas fa-envelope"></i>
@@ -68,8 +69,7 @@
           ----------or--------
         </p>
         <div class="icons">
-          <i class="fab fa-google"></i>
-          <i class="fab fa-facebook"></i>
+          <a class="social-btn google" href="google_login.php" title="Sign in with Google"><i class="fab fa-google"></i></a>
         </div>
         <div class="links">
           <p>Don't have account yet?</p>

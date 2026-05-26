@@ -1,5 +1,9 @@
 <?php
 session_start();
+if(!isset($_SESSION['email'])){
+    header('Location: index.php');
+    exit();
+}
 include("connect.php");
 
 ?>
@@ -19,7 +23,7 @@ include("connect.php");
 <!-- Navigation -->
   <header>
     <nav class="navbar">
-      <div class="logo">FuelFinder</div>
+      <div class="logo">Fuelpump</div>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#features">Features</a></li>
@@ -36,7 +40,7 @@ include("connect.php");
       <p class="tagline">Smart Fuel Price Finder</p>
       <h1>Find the Lowest Gas Prices Near You</h1>
       <p>
-        FuelFinder helps drivers compare nearby gas station prices, discover the best deals,
+        Fuelpump helps drivers compare nearby gas station prices, discover the best deals,
         and enjoy premium perks like priority service upon arrival.
       </p>
       <div class="hero-buttons">

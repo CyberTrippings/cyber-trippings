@@ -89,20 +89,32 @@ input:focus~label,input:not(:placeholder-shown)~label{
 .icons{
     text-align:center;
 }
-.icons i{
-    color:rgb(125,125,235);
-    padding:0.8rem 1.5rem;
+.icons i,
+.social-btn{
+    color:rgb(129, 129, 232);
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:55px;
+    height:55px;
     border-radius:10px;
     font-size:1.5rem;
     cursor:pointer;
-    border:2px solid #dfe9f5;
-    margin:0 15px;
-    transition:1s;
+    
+    margin:0 12px;
+    transition:0.3s;
+    text-decoration:none;
 }
-.icons i:hover{
-    background:#07001f;
+.social-btn.google{
+    color:#e3e2ea;
+    border-color:#f2e9e9;
+}
+.icons i:hover,
+.social-btn:hover{
+    background:#030303;
+    color:rgb(196, 188, 188);
     font-size:1.6rem;
-    border:2px solid rgb(125,125,235);
+    border-color:#dccece;
 }
 .links{
     display:flex;
@@ -110,6 +122,30 @@ input:focus~label,input:not(:placeholder-shown)~label{
     padding:0 4rem;
     margin-top:0.9rem;
     font-weight:bold;
+}
+
+.verification-container{
+    max-width:450px;
+    margin:50px auto;
+    background:#4d07fe;
+    border-radius:10px;
+    padding:1.5rem;
+    box-shadow:0 20px 35px rgba(0,0,1,0.15);
+    color:#07001f;
+}
+.verification-container h1{
+    text-align:center;
+    margin-bottom:1rem;
+}
+.verification-container p{
+    text-align:center;
+    margin-bottom:1.2rem;
+    color:#555;
+}
+.verification-container .message{
+    text-align:center;
+    margin-bottom:1rem;
+    color:#784d4d;
 }
 
 /* Form button styles */
@@ -127,6 +163,12 @@ input:focus~label,input:not(:placeholder-shown)~label{
 }
 .container .btn:hover{
     background:#07001f;
+}
+.social-note{
+    text-align:center;
+    margin:0 0 1rem;
+    color:#555;
+    font-size:0.95rem;
 }
 .container button{
     color:rgb(125,125,235);
