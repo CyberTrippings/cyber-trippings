@@ -53,24 +53,32 @@ include("connect.php");
       <h3>Nearby Stations</h3>
       <div class="station">
         <div>
-          <h4>Petro Save</h4>
+          <h4>Petron</h4>
           <p>1.2 km away</p>
         </div>
-        <span>₱58.20/L</span>
+        <span>XCS ₱58.20/L</span>
+        <span>Blade 100 ₱58.20/L</span>
+        <span>Leaded ₱58.20/L</span>
       </div>
       <div class="station">
         <div>
-          <h4>FuelGo Station</h4>
+          <h4>Shell</h4>
           <p>2.0 km away</p>
         </div>
-        <span>₱59.10/L</span>
+        <span> Regular ₱57.80/L</span>
+        <span> Plus ₱58.20/L</span>
+        <span> Diesel ₱58.20/L</span>
+        <span> V Power Nitro ₱58.20/L</span>
       </div>
       <div class="station">
         <div>
-          <h4>EcoPump Hub</h4>
+          <h4>Caltex</h4>
           <p>3.5 km away</p>
         </div>
-        <span>₱57.80/L</span>
+        <span>With Techron ₱57.80/L</span>
+        <span>Silver Leaded  ₱58.20/L</span>
+        <span>Gold Leaded ₱58.20/L</span>
+        <span>Platinum Diesel ₱58.20/L</span>
       </div>
     </div>
   </section>

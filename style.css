@@ -47,7 +47,7 @@ input{
 input:focus{
     background-color: transparent;
     outline:transparent;
-    border-bottom:2px solid hsl(327,90%,28%);
+    border-bottom:px solid hsl(327,90%,28%);
 }
 input::placeholder{
     color:transparent;
@@ -58,7 +58,7 @@ label{
     color:#757575;
     position:relative;
     left:1.2em;
-    top:-1.3em;
+    top:-1.6em;
     cursor:auto;
     transition:0.3s ease all;
 }
@@ -159,7 +159,7 @@ input:focus~label,input:not(:placeholder-shown)~label{
     background:rgb(125,125,235);
     color:white;
     cursor:pointer;
-    transition:0.9s;
+    transition:0.9s; 
 }
 .container .btn:hover{
     background:#07001f;
