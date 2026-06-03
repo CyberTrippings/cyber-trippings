@@ -127,11 +127,11 @@ input:focus~label,input:not(:placeholder-shown)~label{
 .verification-container{
     max-width:450px;
     margin:50px auto;
-    background:#4d07fe;
+    background:#ffffff;
     border-radius:10px;
     padding:1.5rem;
-    box-shadow:0 20px 35px rgba(0,0,1,0.15);
-    color:#07001f;
+    box-shadow:0 20px 35px rgba(190, 190, 190, 0.15);
+    color:#020007;
 }
 .verification-container h1{
     text-align:center;
@@ -140,12 +140,12 @@ input:focus~label,input:not(:placeholder-shown)~label{
 .verification-container p{
     text-align:center;
     margin-bottom:1.2rem;
-    color:#555;
+    color:#000000;
 }
 .verification-container .message{
     text-align:center;
     margin-bottom:1rem;
-    color:#784d4d;
+    color:#060404;
 }
 
 /* Form button styles */
@@ -179,7 +179,7 @@ input:focus~label,input:not(:placeholder-shown)~label{
 }
 .container button:hover{
     text-decoration:underline;
-    color:blue;
+    color:rgb(23, 23, 225);
 }
 
 /* ===== HOMEPAGE STYLES ===== */

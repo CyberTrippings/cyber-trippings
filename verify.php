@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <p class="message"><?php echo htmlspecialchars($message); ?></p>
         <?php endif; ?>
         <?php if (!empty($displayCode)): ?>
-            <p class="social-note">For this demo, your verification code is <strong><?php echo htmlspecialchars($displayCode); ?></strong>.</p>
+            <p class="social-note">Your verification code is <strong><?php echo htmlspecialchars($displayCode); ?></strong>.</p>
         <?php endif; ?>
         <form method="post" action="verify.php">
             <div class="input-group">
